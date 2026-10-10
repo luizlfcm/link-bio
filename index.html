@@ -71,6 +71,11 @@ h1,h2{font-family:'Big Shoulders Display',sans-serif;text-transform:uppercase}
 .card-pri .arrow{display:none}
 .card-pri .buy{display:block;margin-top:12px;background:#0A0D0A;color:var(--lime);font-family:'Big Shoulders Display',sans-serif;font-weight:900;font-size:18px;letter-spacing:.5px;text-transform:uppercase;text-align:center;padding:12px;border-radius:10px}
 
+.card-ess{display:block;background:var(--card);border:1px solid var(--lime);border-radius:var(--r);padding:16px 18px;margin-bottom:10px}
+.card-ess .card-title{font-size:15px;font-weight:800}
+.card-ess .card-sub{font-size:12.5px;color:var(--txt2);margin-top:3px}
+.card-ess .price{display:inline-block;margin-top:10px;background:var(--lime-soft);color:var(--lime);font-family:'IBM Plex Mono',monospace;font-weight:700;font-size:13px;padding:5px 10px;border-radius:8px;border:1px solid var(--lime-glow)}
+.card-ess .buy{display:block;margin-top:10px;border:1px solid var(--lime);color:var(--lime);font-family:'Big Shoulders Display',sans-serif;font-weight:900;font-size:17px;letter-spacing:.5px;text-transform:uppercase;text-align:center;padding:10px;border-radius:10px}
 .card-sec{display:flex;align-items:center;justify-content:space-between;gap:12px}
 .card-sec .card-title{font-size:14.5px;font-weight:700}
 .card-sec .card-sub{font-size:12px;color:var(--txt2);margin-top:3px}
@@ -95,9 +100,9 @@ h1,h2{font-family:'Big Shoulders Display',sans-serif;text-transform:uppercase}
     <p>Engenheiro Químico · CREA 214587/D<br>Fórmulas profissionais para fabricar e vender</p>
   </div>
 
-  <p class="section-label">Comprar agora</p>
+  <p class="section-label">Completo, com garantia</p>
 
-  <a href="https://formulaautopro.luverisgroup.com.br/?utm_source=instagram&utm_medium=bio&utm_campaign=link_bio&utm_content=pv_autopro" class="card card-pri" onclick="fbq('trackCustom','BioClick',{target:'pv_autopro'})">
+  <a href="https://formulaautopro.luverisgroup.com.br/pag2/?utm_source=instagram&utm_medium=bio&utm_campaign=link_bio&utm_content=pv_autopro_pag2" class="card card-pri" onclick="fbq('trackCustom','BioClick',{target:'pv_autopro_pag2'})">
     <div class="card-row">
       <div>
         <p class="card-title">Fórmula Auto Pro</p>
@@ -108,7 +113,7 @@ h1,h2{font-family:'Big Shoulders Display',sans-serif;text-transform:uppercase}
     </div>
   </a>
 
-  <a href="https://limpezaelucrativa.luverisgroup.com.br/?utm_source=instagram&utm_medium=bio&utm_campaign=link_bio&utm_content=pv_fabrica" class="card card-pri" onclick="fbq('trackCustom','BioClick',{target:'pv_fabrica'})">
+  <a href="https://limpezaelucrativa.luverisgroup.com.br/pag2/?utm_source=instagram&utm_medium=bio&utm_campaign=link_bio&utm_content=pv_fabrica_pag2" class="card card-pri" onclick="fbq('trackCustom','BioClick',{target:'pv_fabrica_pag2'})">
     <div class="card-row">
       <div>
         <p class="card-title">Fábrica da Limpeza</p>
@@ -117,6 +122,22 @@ h1,h2{font-family:'Big Shoulders Display',sans-serif;text-transform:uppercase}
       </div>
       <span class="arrow">→</span>
     </div>
+  </a>
+
+  <p class="section-label">Quer começar mais leve?</p>
+
+  <a href="https://formulaautopro.luverisgroup.com.br/essencial/?utm_source=instagram&utm_medium=bio&utm_campaign=link_bio&utm_content=pv_autopro_essencial" class="card-ess" onclick="fbq('trackCustom','BioClick',{target:'pv_autopro_essencial'})">
+    <p class="card-title">Fórmula Auto Pro Essencial</p>
+    <p class="card-sub">20 fórmulas automotivas prontas para produzir, mais a Precificação Automática para você saber quanto cobrar. Acesso imediato.</p>
+    <span class="price">R$ 14,90</span>
+    <span class="buy">Quero o Essencial →</span>
+  </a>
+
+  <a href="https://limpezaelucrativa.luverisgroup.com.br/essencial/?utm_source=instagram&utm_medium=bio&utm_campaign=link_bio&utm_content=pv_fabrica_essencial" class="card-ess" onclick="fbq('trackCustom','BioClick',{target:'pv_fabrica_essencial'})">
+    <p class="card-title">Fábrica da Limpeza Essencial</p>
+    <p class="card-sub">20 fórmulas de limpeza prontas para produzir, mais a Precificação Automática para você saber quanto cobrar. Acesso imediato.</p>
+    <span class="price">R$ 14,90</span>
+    <span class="buy">Quero o Essencial →</span>
   </a>
 
   <p class="section-label">Ainda na dúvida?</p>
